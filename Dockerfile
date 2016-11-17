@@ -22,8 +22,8 @@ RUN npm install
 # Remove demo file
 RUN rm demo.html
 
-# Expose port 8000
-EXPOSE 8000
+# Expose port 80
+EXPOSE 80
 
-# Let's go
-CMD ["npm", "start"]
+# Run npm server
+CMD ["npm", "start", "--", "--port", "80"]

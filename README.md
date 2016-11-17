@@ -11,11 +11,11 @@ A container to expose your presentations with Reveals.js.
 
 To simply test this image run this command:
 
-`docker run -p 80:8000 -d francescoben/docker-reveal-js`
+`docker run -p 80:80 -d francescoben/docker-reveal-js`
 
 To create your presentation, you can mount index.html file like this:
 
-`docker run -p 80:8000 -v </path/to/your/index/file>:/srv/reveal.js/index.html -d francescoben/docker-reveal-js`
+`docker run -p 80:80 -v </path/to/your/index/file>:/srv/reveal.js/index.html -d francescoben/docker-reveal-js`
 
 You can then browse your content visiting:
 
