@@ -4,8 +4,7 @@ MAINTAINER Francesco Benigno <francesco.benigno@sparkfabrik.com>
 
 # Set variables
 ENV REVEALJS_VERSION 3.3.0
-ENV REVEALJS_INSTALL_DIR /reveal.js
-ENV PORT=8000
+ENV REVEALJS_INSTALL_DIR /srv/reveal.js
 
 # Get reveal.js from Github repository
 RUN cd /tmp \
