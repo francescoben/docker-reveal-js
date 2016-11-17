@@ -19,6 +19,9 @@ WORKDIR $REVEALJS_INSTALL_DIR
 # Install reveal.js
 RUN npm install
 
+# Remove demo file
+RUN rm demo.html
+
 # Expose port 8000
 EXPOSE 8000
 

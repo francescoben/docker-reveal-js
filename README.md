@@ -13,6 +13,10 @@ To simply test this image run this command:
 
 `docker run -p 80:8000 -d francescoben/docker-reveal-js`
 
+To create your presentation, you can mount index.html file like this:
+
+`docker run -p 80:8000 -v </path/to/your/index/file>:/srv/reveal.js/index.html -d francescoben/docker-reveal-js`
+
 You can then browse your content visiting:
 
     http://localhost:80
