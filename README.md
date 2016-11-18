@@ -4,8 +4,8 @@ A container to expose your presentations with Reveals.js.
 
 ### Content
 
-* Latest official [Node image](https://hub.docker.com/_/node/).
-* Latest [reveal.js](https://github.com/hakimel/reveal.js) version.
+* Official [Node image v7.1.0](https://hub.docker.com/_/node/)
+* [reveal.js v3.3.0](https://github.com/hakimel/reveal.js/releases/3.3.0)
 
 ### Usage
 
